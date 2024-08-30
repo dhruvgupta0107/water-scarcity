@@ -1,0 +1,17 @@
+*{
+    overflow-x: hidden;
+    
+}
+
+#img1{
+    margin-top:2rem;
+    margin-left: 6rem;
+    height: 400px;
+    width:600px;
+}
+#img2{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    height: 400px;
+    width:600px;
+}
