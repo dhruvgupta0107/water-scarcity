@@ -7,36 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Landing page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
     <!-- header section starts  -->
 
-    <header>
-        <section class="nav">
-            <!-- We can also insert any logo here     -->
+    <nav class="navbar navbar-expand-lg backg"
+        style="background-color: #2ec4b6; color: #00171f; font-weight: 500; font-size: larger;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/home.html"><img src="logo2.png" id="logo">AmratDhara</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/method.html">Innovative Methods</a></li>
+                            <li><a class="dropdown-item" href="/agriculture1.html">Lack of knowledge</a></li>
+                            <li><a class="dropdown-item" href="/agriculture2.html">Water Conservation</a></li>
+                            <li><a class="dropdown-item" href="/cases.html">Case Studies</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"
+                        style="background-color: #cbf3f0; color: black; font-weight: 550;">Search</button>
+                </form>
+                <a href="/login.html">
+                    <button class="btn btn-outline-success" type="submit"
+                        style="background-color: #cbf3f0; color: black; font-weight: 550; margin-left: 10px;">Login</button>
 
-            <!-- We can also insert any logo here     -->
-            <div class="logo">
-                <a href="#"><i class=""></i>AmratDhara</a>
+                </a>
             </div>
-
-            <!--  checkbox to control the icon's state    -->
-            <input id="menu-toggle" type="checkbox" />
-            <label class="menu-button-container" for="menu-toggle">
-          <div class="menu-button"></div>
-        </label>
-            <!--  main menu    -->
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#speciality">About</a></li>
-                <li><a href="#review">Contact</a></li>
-                <li><a href="#order" class="order">Menu</a></li>
-            </ul>
-        </section>
-    </header>
+        </div>
+    </nav>
 
     <!-- header section ends -->
 
@@ -46,7 +68,7 @@
         <div class="content">
             <!-- Tagline -->
             <h3 class="mainfont">
-                The Wa<span class="yellowColor">te</span>r Web
+                The <span class="yellowColor">Water</span> Web
             </h3>
             <h3>
                 Water is <span class="yellowColor">life's</span> flow: cherish
@@ -58,12 +80,12 @@
             </p>
 
             <!-- CTA -->
-            <a href="# " class="btn">Get Started</a>
+            <a href="/home.html " class="btn">Get Started</a>
         </div>
         <!-- Hero image -->
 
         <div class="image">
-            <img src="final logo.png" alt=" " />
+            <img src="/logo.png" alt=" " />
         </div>
     </section>
 
